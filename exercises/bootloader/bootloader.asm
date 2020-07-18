@@ -12,7 +12,7 @@ start:
   mov si, msg
   call print
   cli
-  halt
+  hlt
 
 data:
   msg db 'Hello World', 0
