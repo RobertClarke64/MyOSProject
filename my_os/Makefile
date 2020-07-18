@@ -12,7 +12,7 @@ all: finale
 
 $(TARGET):$(OBJS)
 	$(shell nasm -f elf start.asm -o start.o)
-	$(CC) -m32 -nostdlib -nodedefaultlibs -lgcc start.o $? -T linker.ld -o $(TARGET)
+	$(CC) -m32 -nostdlib -nodefaultlibs -lgcc start.o $? -T linker.ld -o $(TARGET)
 
 finale:
 	$(shell cd ~/Documents/MyOSProject/my_os/)

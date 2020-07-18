@@ -1,3 +1,6 @@
 *.o
 exercises/print_assembly/print_robert
 my_os/kernel
+myos
+myos.iso
+iso/boot/myos
