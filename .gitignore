@@ -1,2 +1,3 @@
 *.o
 exercises/print_assembly/print_robert
+my_os/kernel
