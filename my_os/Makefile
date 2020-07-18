@@ -20,5 +20,5 @@ finale:
 	$(shell grub-mkrescue iso --output=$(TARGET).iso)
 
 clean:
-	rm -f *.o $(TARGET) $(TARGET).iso
+	rm -f *.o $(TARGET)
 	find . -name \*.o | xargs --no-run-if-empty rm
