@@ -4,7 +4,7 @@ C_FILES=./kernel.c
 OBJS=$(C_FILES:.c=.o)
 
 all compile: $(TARGET)
-all: finale
+all: finale clean
 .PHONY: all compile clean finale
 
 %.o:
