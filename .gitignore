@@ -4,3 +4,4 @@ my_os/kernel
 myos
 myos.iso
 iso/boot/myos
+*.h.gch
